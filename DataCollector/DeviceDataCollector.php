@@ -11,7 +11,7 @@
 
 namespace SunCat\MobileDetectBundle\DataCollector;
 
-use Exception;
+use Throwable;
 use SunCat\MobileDetectBundle\EventListener\RequestResponseListener;
 use SunCat\MobileDetectBundle\Helper\DeviceView;
 use Symfony\Component\HttpFoundation\Request;
